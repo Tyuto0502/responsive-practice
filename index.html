@@ -12,13 +12,54 @@
 </head>
 
 <body>
-  <h2 class="question--title">Q7 サイズ変更</h2>
-  <h2 class="question--title">Q2 色変更</h2>
-  <h2 class="question--title">Q3 margin値の変更</h2>
-  <h2 class="question--title">Q4 floatの解除</h2>
-  <h2 class="question--title">Q5 flexboxの入れ替え(逆順)</h2>
-  <h2 class="question--title">Q6 flexboxの入れ替え(指定)</h2>
-  <h2 class="question--title">Q7 要素の表示・非表示</h2>
+  <div class="question-wrqapper">
+    <h2 class="question--title">Q1 サイズ変更</h2>
+    <div class="box-wrapper">
+      <div class="box1"></div>
+    </div>
+    <h2 class="question--title">Q2 色変更</h2>
+    <div class="box-wrapper">
+      <div class="box box_red change_color"></div>
+    </div>
+    <h2 class="question--title">Q3 margin値の変更</h2>
+    <div class="box-wrapper">
+      <div class="box box_blue box_margin"></div>
+      <div class="box box_green"></div>
+    </div>
+    <h2 class="question--title">Q4 floatの解除</h2>
+    <div class="box-wrapper">
+      <div class="clearfix">
+        <div class="box_float">
+          <div class="box box_red"></div>
+          <div class="box box_blue"></div>
+        </div>
+      </div>
+    </div>
+    <h2 class="question--title">Q5 flexboxの入れ替え(逆順)</h2>
+    <div class="box-wrapper">
+      <div class="flexbox">
+        <div class="box box_red box_position"><p>A</p></div>
+        <div class="box box_blue box_position"><p>B</p></div>
+        <div class="box box_orange box_position"><p>C</p></div>
+      </div>
+    </div>
+    <h2 class="question--title">Q6 flexboxの入れ替え(指定)</h2>
+    <div class="box-wrapper">
+      <div class="flexbox2">
+        <div class="box box_lightgreen box_position"><p>A</p></div>
+        <div class="box box_yellow box_position"><p>B</p></div>
+        <div class="box box_pink box_position order-1"><p>C</p></div>
+      </div>
+    </div>
+    <h2 class="question--title">Q7 要素の表示・非表示</h2>
+    <div class="box-wrapper">
+      <div class="flexbox2">
+        <div class="box box_red box_hidden1"></div>
+        <div class="box box_blue box_hidden2"></div>
+        <div class="box box_lightgreen"></div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
