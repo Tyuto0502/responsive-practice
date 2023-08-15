@@ -63,21 +63,18 @@
   clear: both;
 }
 
-.box_float {
-  float: left;
-  position: relative;
-  left: 50%;
+.clearfix {
+  margin: 0 auto;
+  display: inline-block;
 }
 
-.box_float div {
+.clearfix div {
   display: block;
   float: left;
-  position: relative;
-  left: -50%;
 }
 
 @media (max-width: 960px) {
-  .box_float div {
+  .clearfix div {
     float: none;
   }
 }
@@ -128,13 +125,13 @@
 }
 
 .order-1,.order-2,.order-3 {
-  order: 0;
+  order: 1;
 }
 
 @media (max-width: 960px) {
-  .order-1 {order: 1;}
-  .order-2 {order: 2;}
-  .order-3 {order: -1;}
+  .order-1 {order: 2;}
+  .order-2 {order: 3;}
+  .order-3 {order: 1;}
 }
 
 .box_hidden1 {
