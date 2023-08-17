@@ -63,18 +63,18 @@
   clear: both;
 }
 
-.clearfix {
+.float_area {
   margin: 0 auto;
   display: inline-block;
 }
 
-.clearfix div {
+.float_area div {
   display: block;
   float: left;
 }
 
 @media (max-width: 960px) {
-  .clearfix div {
+  .float_area div {
     float: none;
   }
 }
